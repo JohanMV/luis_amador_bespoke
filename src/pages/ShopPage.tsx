@@ -22,7 +22,7 @@ export function ShopPage() {
           </Reveal>
         </div>
       </section>
-      <Catalog limit={null} showFullCollectionLink={false} showHeading={false} showOccasionNav />
+      <Catalog limit={null} showFullCollectionLink={false} showHeading={false} />
     </MainLayout>
   );
 }
