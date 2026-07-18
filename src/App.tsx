@@ -9,8 +9,8 @@ function HomePage() {
     <MainLayout>
       <Hero />
       <OccasionCategories />
-      <Story />
       <Catalog />
+      <Story />
       <Process />
       <Testimonials />
       <Lookbook />

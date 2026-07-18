@@ -35,7 +35,7 @@ function occasionHref(occasion: OccasionCategory) {
 
 export function OccasionCategories({ activeCategory, onSelect }: OccasionCategoriesProps) {
   return (
-    <section className="bg-ivory-light py-20 sm:py-28 lg:py-36">
+    <section className="bg-ivory py-20 sm:py-28 lg:py-36">
       <div className="section-shell">
         <div>
           <Reveal><p className="eyebrow">Elige tu ocasión</p><h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight sm:text-5xl">Vestimos el momento que importa</h2></Reveal>
