@@ -6,7 +6,9 @@ export function Hero() {
   const reduced = useReducedMotion();
   return (
     <section id="inicio" className="relative min-h-[780px] overflow-hidden bg-ink text-white sm:min-h-[820px] lg:h-screen lg:min-h-[760px]">
-      <motion.img initial={reduced ? false : { scale: 1.06 }} animate={{ scale: 1 }} transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }} src="/images/hero.avif" alt="Pareja elegantemente vestida en una celebración" className="absolute inset-0 h-full w-full object-cover object-[62%_center] sm:object-center" />
+      <div className="absolute inset-0 scale-[1.05] sm:scale-100">
+        <motion.img initial={reduced ? false : { scale: 1.06 }} animate={{ scale: 1 }} transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }} src="/images/luis_amador_logo_2.webp" alt="Pareja elegantemente vestida en una celebración" className="absolute inset-0 h-full w-full object-cover object-[62%_center] sm:object-center" />
+      </div>
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(12,13,11,.9)_0%,rgba(12,13,11,.58)_46%,rgba(12,13,11,.08)_78%),linear-gradient(0deg,rgba(12,13,11,.56)_0%,transparent_40%)]" />
       <div className="section-shell relative flex min-h-[780px] items-end pb-24 pt-32 sm:min-h-[820px] sm:items-center sm:pb-12 lg:h-full lg:min-h-[760px]">
         <motion.div initial={reduced ? false : { opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 0.25 }} className="max-w-3xl">
