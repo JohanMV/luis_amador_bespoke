@@ -15,10 +15,10 @@ export interface OccasionCategory {
 }
 
 const occasions: OccasionCategory[] = [
-  { id: "ejecutivo", eyebrow: "Trabajo y liderazgo", label: "Ejecutivo", description: "Sastrería precisa para reuniones, presentaciones y decisiones importantes.", image: "/images/products/savile-main.webp", audience: "todos", category: "Ejecutivo" },
-  { id: "novios", eyebrow: "Bodas", label: "Novios", description: "Smoking y ternos ceremoniales pensados para un día irrepetible.", image: "/images/products/monaco-main.webp", audience: "hombre", category: "Novio" },
-  { id: "novias-ceremonia", eyebrow: "Bodas y gala", label: "Novias y ceremonia", description: "Siluetas de autor para protagonistas e invitadas memorables.", image: "/images/products/amalfi-main.webp", audience: "mujer", category: "novias-ceremonia" },
-  { id: "quinceanera", eyebrow: "Celebraciones", label: "Quinceañera", description: "Volumen, color y acabados artesanales para una entrada inolvidable.", image: "/images/products/luna-main.webp", audience: "mujer", category: "Quinceañera" },
+  { id: "ejecutivo", eyebrow: "Trabajo y liderazgo", label: "Ejecutivo", description: "Sastrería precisa para reuniones, presentaciones y decisiones importantes.", image: "/images/ejecutivo_coleccion.webp", audience: "todos", category: "Ejecutivo" },
+  { id: "novios", eyebrow: "Bodas", label: "Novios", description: "Smoking y ternos ceremoniales pensados para un día irrepetible.", image: "/images/novio_coleccion.webp", audience: "hombre", category: "Novio" },
+  { id: "novias-ceremonia", eyebrow: "Bodas y gala", label: "Novias y ceremonia", description: "Siluetas de autor para protagonistas e invitadas memorables.", image: "/images/novia_coleccion.webp", audience: "mujer", category: "novias-ceremonia" },
+  { id: "quinceanera", eyebrow: "Celebraciones", label: "Quinceañera", description: "Volumen, color y acabados artesanales para una entrada inolvidable.", image: "/images/quinceañera_coleccion.webp", audience: "mujer", category: "Quinceañera" },
 ];
 
 interface OccasionCategoriesProps {
