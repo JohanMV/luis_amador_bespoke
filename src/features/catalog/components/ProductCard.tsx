@@ -18,7 +18,7 @@ export function ProductCard({ product, onSelect }: ProductCardProps) {
         <span className="absolute bottom-4 right-4 grid size-11 translate-y-3 place-items-center bg-ivory-light opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100"><ArrowUpRight size={18} /></span>
       </button>
       <div className="flex min-w-0 items-start justify-between gap-2 pt-3 sm:gap-4 sm:pt-4">
-        <div className="min-w-0"><p className="text-[0.58rem] font-semibold uppercase tracking-[0.16em] text-gold sm:text-[0.62rem] sm:tracking-[0.18em]">{product.category}</p><h3 className="mt-1 font-display text-xl leading-tight sm:text-2xl sm:leading-normal">{product.name}</h3></div>
+        <div className="min-w-0"><p className="text-[0.58rem] font-semibold uppercase tracking-[0.16em] text-gold sm:text-[0.62rem] sm:tracking-[0.18em]">{product.category}</p><h3 className="mt-1 font-display text-xl font-light leading-tight tracking-[-0.01em] sm:text-2xl sm:leading-normal">{product.name}</h3></div>
         <div className="shrink-0 pt-3 text-right sm:pt-4">
           <p className="text-[0.56rem] uppercase tracking-wider text-ink-soft/75 sm:text-[0.67rem]">Venta desde</p>
           <p className="mt-0.5 text-xs font-medium sm:text-sm">S/ {product.price.toLocaleString("es-PE")}</p>

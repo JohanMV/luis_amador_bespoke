@@ -13,7 +13,7 @@ export function SectionHeading({ eyebrow, title, description, align = "left", li
         <span className="gold-rule" aria-hidden="true" />
         <p className="eyebrow">{eyebrow}</p>
       </div>
-      <h2 className={`font-display text-4xl leading-[1.05] sm:text-5xl lg:text-6xl ${light ? "text-white" : "text-ink"}`}>{title}</h2>
+      <h2 className={`font-display text-4xl font-light leading-[1.08] tracking-[-0.01em] sm:text-5xl lg:text-6xl ${light ? "text-white" : "text-ink"}`}>{title}</h2>
       {description && <p className={`mt-5 max-w-xl text-sm leading-7 sm:text-base ${light ? "text-white/65" : "text-ink-soft/70"}`}>{description}</p>}
     </div>
   );

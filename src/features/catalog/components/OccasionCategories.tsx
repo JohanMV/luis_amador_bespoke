@@ -38,7 +38,7 @@ export function OccasionCategories({ activeCategory, onSelect }: OccasionCategor
     <section className="bg-ivory py-20 sm:py-28 lg:py-36">
       <div className="section-shell">
         <div>
-          <Reveal><p className="eyebrow">Elige tu ocasión</p><h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight sm:text-5xl">Vestimos el momento que importa</h2></Reveal>
+          <Reveal><p className="eyebrow">Elige tu ocasión</p><h2 className="mt-4 max-w-2xl font-display text-4xl font-light leading-tight sm:text-5xl">Vestimos el momento que importa</h2></Reveal>
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {occasions.map((occasion, index) => {
               const active = activeCategory === occasion.category;
