@@ -56,7 +56,7 @@ export const products: Product[] = [
   {
     id: "oxford", name: "Terno Oxford", category: "Ternos", audience: "hombre", services: ["venta", "alquiler", "medida"],
     description: "Gris carbón de dos piezas, preciso y sobrio para compromisos formales.", price: 1690, rentalPrice: 350, image: productImage("oxford"),
-    gallery: productGallery("oxford"), badge: "Clásico NOBILE", sizes: ["S", "M", "L", "XL", "XXL"],
+    gallery: productGallery("oxford"), badge: "Clásico LuisAmador", sizes: ["S", "M", "L", "XL", "XXL"],
   },
   {
     id: "imperial", name: "Terno Imperial", category: "Ternos", audience: "hombre", services: ["venta", "alquiler", "medida"],
@@ -91,7 +91,7 @@ export const products: Product[] = [
   {
     id: "black-label", name: "Smoking Black Label", category: "Novio", audience: "hombre", services: ["venta", "alquiler", "medida"],
     description: "Una pieza ceremonial de líneas puras, camisa plisada y presencia atemporal.", price: 2790, rentalPrice: 590, image: productImage("black-label"),
-    gallery: productGallery("black-label"), badge: "Firma NOBILE", sizes: ["S", "M", "L", "XL", "XXL"],
+    gallery: productGallery("black-label"), badge: "Firma LuisAmador", sizes: ["S", "M", "L", "XL", "XXL"],
   },
   {
     id: "manhattan", name: "Terno Manhattan", category: "Ejecutivo", audience: "hombre", services: ["venta", "alquiler", "medida"],

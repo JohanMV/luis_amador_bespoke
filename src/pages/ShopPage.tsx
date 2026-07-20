@@ -14,7 +14,7 @@ export function ShopPage() {
         <div className="section-shell">
           <Reveal>
             <SectionHeading
-              eyebrow="Tienda NOBILE"
+              eyebrow="Tienda LuisAmador"
               title="Colección completa"
               description="Descubre cada pieza disponible para venta, alquiler y confección a medida, creada para vestir tus ocasiones más importantes."
               light
