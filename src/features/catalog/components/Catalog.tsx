@@ -87,7 +87,10 @@ export function Catalog({ limit = 6, showFullCollectionLink = true, showHeading 
         <div className={`flex flex-col gap-8 lg:flex-row lg:items-end ${showHeading ? "lg:justify-between" : "lg:justify-end"}`}>
           {showHeading && <Reveal><SectionHeading eyebrow="La colección" title="Prendas que dejan huella" description="Piezas seleccionadas para vestir decisiones, promesas y celebraciones. Cada una puede adaptarse a tus medidas." /></Reveal>}
           <div className="grid grid-cols-2 gap-2 sm:flex" aria-label="Filtros del catálogo">
-            <select aria-label="Filtrar por servicio" value={service} onChange={(event) => setService(event.target.value as ServiceFilter)} className={filterClass}>
+            <select aria-label="Filtrar por modalidad" value={service} onChange={(event) => setService(event.target.value as ServiceFilter)} className={`${filterClass} sm:hidden`}>
+              <option value="todos">Modalidad</option><option value="venta">Venta</option><option value="alquiler">Alquiler</option><option value="medida">A medida</option>
+            </select>
+            <select aria-label="Filtrar por servicio" value={service} onChange={(event) => setService(event.target.value as ServiceFilter)} className={`${filterClass} hidden sm:block`}>
               <option value="todos">Venta / Alquiler / A medida</option><option value="venta">Venta</option><option value="alquiler">Alquiler</option><option value="medida">A medida</option>
             </select>
             <select aria-label="Filtrar por público" value={audience} onChange={(event) => setAudience(event.target.value as AudienceFilter)} className={filterClass}>

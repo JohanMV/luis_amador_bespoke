@@ -5,8 +5,8 @@ import { useCartStore } from "@/features/cart";
 import { whatsappUrl } from "@/lib/config";
 
 const nav = [
-  ["Inicio", "/#inicio"], ["Colecciones", "/#colecciones"], ["Alquiler", "/tienda?servicio=alquiler"],
-  ["Venta", "/tienda?servicio=venta"], ["A medida", "/tienda?servicio=medida"], ["Nosotros", "/#nosotros"], ["Contacto", "/#contacto"],
+  ["Inicio", "/#inicio"], ["Colecciones", "/#colecciones"], ["Tienda", "/tienda"],
+  ["A medida", "/tienda?servicio=medida"], ["Nosotros", "/#nosotros"], ["Contacto", "/#contacto"],
 ];
 
 export function Header() {
